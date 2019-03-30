@@ -12,8 +12,13 @@ func main() {
 	arr := leetCode.TwoSum(nums,target)
 	fmt.Println(arr)
 	*/
-	/* 只出现一次的数 */
+	/* 只出现一次的数
 	nums := []int{2, 2, 1}
 	res := leetCode.SingleNumber(nums)
 	fmt.Println(res)
+	*/
+	/* 整数反转 */
+	x := 1002
+	result := leetCode.Reverse(x)
+	fmt.Println(result)
 }
