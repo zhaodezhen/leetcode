@@ -17,8 +17,11 @@ func main() {
 	res := leetCode.SingleNumber(nums)
 	fmt.Println(res)
 	*/
-	/* 整数反转 */
+	/* 整数反转
 	x := 1002
 	result := leetCode.Reverse(x)
+	fmt.Println(result)
+	 */
+	result := leetCode.ClimbStairs(6)
 	fmt.Println(result)
 }
