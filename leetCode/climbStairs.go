@@ -47,9 +47,7 @@ func ClimbStairs(n int) int {
 	res[0] = 1
 	res[1] = 1
 	for i := 2; i <= n; i++ {
-		one := res[i-1]
-		tow := res[i-2]
-		res[i] = one + tow
+		res[i] = res[i-1] + res[i-2]
 	}
 	return res[n]
 }
