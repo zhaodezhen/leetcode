@@ -22,6 +22,14 @@ func main() {
 	result := leetCode.Reverse(x)
 	fmt.Println(result)
 	 */
+	/* 爬楼梯
 	result := leetCode.ClimbStairs(6)
 	fmt.Println(result)
+	 */
+	/* Maximum Subarray */
+
+	nums := []int{-2,1,-3,4,-1,2,1,-5,4}
+	result := leetCode.MaxSubArray(nums)
+	fmt.Println(result)
+
 }
