@@ -12,24 +12,32 @@ func main() {
 	arr := leetCode.TwoSum(nums,target)
 	fmt.Println(arr)
 	*/
+
 	/* 只出现一次的数
 	nums := []int{2, 2, 1}
-	res := leetCode.SingleNumber(nums)
-	fmt.Println(res)
+	result := leetCode.SingleNumber(nums)
+	fmt.Println(result)
 	*/
+
 	/* 整数反转
 	x := 1002
 	result := leetCode.Reverse(x)
 	fmt.Println(result)
 	 */
+
 	/* 爬楼梯
 	result := leetCode.ClimbStairs(6)
 	fmt.Println(result)
 	 */
-	/* Maximum Subarray */
 
+	/* Maximum Subarray
 	nums := []int{-2,1,-3,4,-1,2,1,-5,4}
 	result := leetCode.MaxSubArray(nums)
 	fmt.Println(result)
+	*/
 
+	/*	Best Time to Buy and Sell Stock 1 & 2	*/
+	prices := []int{6,1,3,2,4,7}
+	result := leetCode.MaxProfit2(prices)
+	fmt.Println(result)
 }
