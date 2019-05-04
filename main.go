@@ -41,8 +41,13 @@ func main() {
 	result := leetCode.MaxProfit2(prices)
 	fmt.Println(result)
 	*/
-	/* Min Cost Climbing Stairs  */
+	/* Min Cost Climbing Stairs
 	cost := []int{1, 100, 1, 1, 1, 100, 1, 1, 100, 1}
 	result := leetCode.MinCostClimbingStairs(cost)
+	fmt.Println(result)
+	*/
+	/*	House Robber */
+	nums := []int{1,1,5,6}
+	result := leetCode.Rob(nums)
 	fmt.Println(result)
 }
